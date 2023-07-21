@@ -1,6 +1,6 @@
 {
 	"name": "react-arca",
-	"version": "0.0.8",
+	"version": "0.0.10",
 	"description": "A cleaner, simpler way to get started with React.",
 	"main": "index.js",
 	"license": "MIT",
