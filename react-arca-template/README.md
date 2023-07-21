@@ -40,7 +40,7 @@ We highly recommend making these changes:
 - We set up some basic linting rules using the .eslintrc file. These are our opinions, and we expect you as the developer to fit these to your project needs. To get quickly set up, the project is designed to work with ESLint out of the box. You can install the extension here https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint.
 - After installing the extension. Here is a quick starting configuration to use in your vscodes settings.json which will format your code on save so linting errors get automatically fixed as you develop:
 
-`
+```json
 {
   	"extends": ["react-app", "react-app/jest"],
   	"rules": {
@@ -52,7 +52,7 @@ We highly recommend making these changes:
 		"max-len": ["warn", 150]
   	}
 }
-`
+```
 
 ## Feedback
 
@@ -60,7 +60,7 @@ We highly recommend making these changes:
 
 ## Contributing
 
-react-arca is an open-source library, and we welcome contributions from the developer community. If you're interested in contributing, we recommend following these steps located within the `/docs` folder to get started:
+react-arca is an open-source library, and we welcome contributions from the developer community. If you're interested in contributing, we recommend following these steps located within the /docs folder to get started:
 
 1. Read the **Code of Conduct**: Before contributing, please familiarize yourself with our Code of Conduct, which outlines the expected behavior and guidelines for interaction within the react-arca community.
 
