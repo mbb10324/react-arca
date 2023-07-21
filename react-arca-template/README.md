@@ -33,10 +33,26 @@ We highly recommend making these changes:
 - Add your own favicon.ico. Replace the default favicon.ico within /public/favicon.ico.
 - Adjust the head area within /public/index.html to support your project needs.
 - Within /src/assets, we set up some basic media. Replace the media according to your liking.
-- Within /src/Components, we provided an example with instructions on getting started with react-arca. Use this folder to incorporate your own components.
+- Within /src/Components, we provided an example with Arca.js. Use this folder to incorporate your own components.
 - Within /src, the files App.css, App.test.js, and App.js are all just templates. Use these to define the rest of your project.
 - The /src/index.js is the entry point for the rest of the React app. This is the one file we recommend leaving as-is. But hey, hack away.
 - The /README.md is what you're currently reading. Once you've read through this file, we highly recommend replacing all of its contents with your own. If you need to reference this file again, you can find it at https://github.com/mbb10324/react-arca/react-arca-template#readme.
+- We set up some basic linting rules using the .eslintrc file. These are our opinions, and we expect you as the developer to fit these to your project needs. To get quickly set up, the project is designed to work with ESLint out of the box. You can install the extension here https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint.
+- After installing the extension. Here is a quick starting configuration to use in your vscodes settings.json which will format your code on save so linting errors get automatically fixed as you develop:
+
+`
+{
+  	"extends": ["react-app", "react-app/jest"],
+  	"rules": {
+		"semi": ["warn", "always"],
+		"quotes": ["warn", "double"],
+		"jsx-quotes": ["warn", "prefer-double"],
+		"indent": ["warn", "tab", { "SwitchCase": 1 }],
+		"no-tabs": 0,
+		"max-len": ["warn", 150]
+  	}
+}
+`
 
 ## Feedback
 
