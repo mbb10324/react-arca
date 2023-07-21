@@ -9,7 +9,7 @@
 	width: 100%;
 	background-color: #141414;
 	color: #fff7ee;
-	font-family: "TitilliumWeb-Regular";
+	font-family: Arial, sans-serif;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -29,10 +29,10 @@
 	color: #d4ef21;
 }
 
-@font-face {
+/* @font-face {
 	font-family: "TitilliumWeb-Regular";
 	src: url(./assets/fonts/TitilliumWeb-Regular.ttf) format("truetype");
-}
+} */
 
 @media screen and (max-width: 768px) {
 	.app video {

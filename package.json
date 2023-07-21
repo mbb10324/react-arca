@@ -1,8 +1,12 @@
 {
-	"name": "react-arca-cli",
-	"version": "0.0.1",
-	"description": "CLI for creating a new react-arca project.",
+	"name": "react-arca",
+	"version": "0.0.8",
+	"description": "A cleaner, simpler way to get started with React.",
 	"main": "index.js",
+	"license": "MIT",
+	"bin": {
+		"react-arca": "./react-arca-cli/index.js"
+	},
 	"dependencies": {
 		"chalk": "^5.3.0",
 		"child_process": "^1.0.2",

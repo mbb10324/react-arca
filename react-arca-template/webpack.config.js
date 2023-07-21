@@ -1,4 +1,3 @@
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ESLintPlugin = require("eslint-webpack-plugin");
@@ -32,10 +31,6 @@ module.exports = {
 			template: path.resolve(__dirname, "public", "index.html"),
 		}),
 		new MiniCssExtractPlugin(),
-		new BundleAnalyzerPlugin({
-			analyzerMode: "disabled",
-			generateStatsFile: true,
-		}),
 		new ESLintPlugin({
 			extensions: ["js", "jsx"],
 		}),
