@@ -1,60 +1,45 @@
 # Welcome to react-arca
 
-This is a barebones setup for working with React.
-
-We've only included the essentials to get you started.
+This is a barebones setup for working with React. We've only included the essentials to get you started.
 
 ## To run your app:
 
-ensure you are at the root directory and run `npm start`.
+Ensure you are at the root directory and run `npm start`.
 
 ## To test your app:
 
-We pre configured a very basic test configuration using jest.
+We've pre-configured a very basic test configuration using Jest.
 
-- Read the jest, and @testing-library/react documentation.
-
-- Modify the jest.config.js and assetTransformer.js to your testing standards.
-
-- Add a setupTests.js if you need one.
-
+- Read the Jest and @testing-library/react documentation.
+- Modify the jest.config.js and assetTransformer.js according to your testing standards.
+- Add a setupTests.js if needed.
 - Run `npm run test`.
-
-- By default we set up jest to provide a coverage report for you. This file is git ignored, and you can opt out of providing coverage reports in your package.json within the "script" section.
+- By default, we've set up Jest to provide a coverage report for you. This file is git ignored, and you can opt-out of providing coverage reports in your package.json within the "script" section.
 
 ## To build your app:
 
-Were using webpack to create a production build.
+We're using Webpack to create a production build.
 
-- Read the webpack documentation.
-
+- Read the Webpack documentation.
 - Set up your webpack.config.js to optimize the build for your use case.
-
 - Run `npm run build`.
-
-- Webpack will provide your build output to a dist folder. This file is git ignored, adjust these settings to your needs.
+- Webpack will provide your build output to a 'dist' folder. This file is git ignored, adjust these settings according to your needs.
 
 ## To make this app your own:
 
-We highly recommend making these changes.
+We highly recommend making these changes:
 
 - Add your own favicon.ico. Replace the default favicon.ico within /public/favicon.ico.
-
 - Adjust the head area within /public/index.html to support your project needs.
-
-- Within /src/assets we set up some basic media. Replace the media to your liking.
-
-- Within /src/Components we provided an example with instructions on getting started with react-arca. Use this folder to incorporate your own components.
-
-- Within /src the files App.css, App.test.js, and App.js are all just templates. Use these to define the rest of your project.
-
-- The /src/index.js is the entry point for the rest of the React app, this is the one file we recommend leaving as-is. But hey, hack-away.
-
-- The /README.md is what your currently reading. Once you have read through this file, we highly recommend replacing all of its contents with your own. If you need to reference this file again you can find it at https://github.com/mbb10324/react-arca/react-arca-template#readme.
+- Within /src/assets, we set up some basic media. Replace the media according to your liking.
+- Within /src/Components, we provided an example with instructions on getting started with react-arca. Use this folder to incorporate your own components.
+- Within /src, the files App.css, App.test.js, and App.js are all just templates. Use these to define the rest of your project.
+- The /src/index.js is the entry point for the rest of the React app. This is the one file we recommend leaving as-is. But hey, hack away.
+- The /README.md is what you're currently reading. Once you've read through this file, we highly recommend replacing all of its contents with your own. If you need to reference this file again, you can find it at https://github.com/mbb10324/react-arca/react-arca-template#readme.
 
 ## Feedback
 
-- If you have any feedback and would like to see things added/removed/changed create a new issue @ https://github.com/mbb10324/react-arca/issues
+- If you have any feedback and would like to see things added/removed/changed, create a new issue at https://github.com/mbb10324/react-arca/issues
 
 ## Contributing
 
@@ -64,8 +49,8 @@ react-arca is an open-source library, and we welcome contributions from the deve
 
 2. Review the **Developer Guidelines**: Take some time to read our Developer Guidelines, which provide helpful information and best practices for contributing code, reporting issues, and proposing new features.
 
-3. Explore the **Developer Readme**: The Developer Readme, serves as a comprehensive guide for developers working with react-arca. It provides detailed information about the library's architecture, key components, and usage instructions.
+3. Explore the **Developer Readme**: The Developer Readme serves as a comprehensive guide for developers working with react-arca. It provides detailed information about the library's architecture, key components, and usage instructions.
 
-Once you have gone through these resources and feel comfortable with the guidelines and documentation, you can start contributing to react-arca @ https://github.com/mbb10324/react-arca!
+Once you've gone through these resources and feel comfortable with the guidelines and documentation, you can start contributing to react-arca at https://github.com/mbb10324/react-arca!
 
 We greatly appreciate your contributions and look forward to building an inclusive and collaborative developer community around react-arca!
