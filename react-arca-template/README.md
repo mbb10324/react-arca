@@ -4,11 +4,11 @@ This is a barebones setup for working with React.
 
 We've only included the essentials to get you started.
 
-### To run your app:
+## To run your app:
 
 ensure you are at the root directory and run `npm start`.
 
-### To test your app:
+## To test your app:
 
 We pre configured a very basic test configuration using jest.
 
@@ -22,7 +22,7 @@ We pre configured a very basic test configuration using jest.
 
 - By default we set up jest to provide a coverage report for you. This file is git ignored, and you can opt out of providing coverage reports in your package.json within the "script" section.
 
-### To build your app:
+## To build your app:
 
 Were using webpack to create a production build.
 
@@ -34,7 +34,7 @@ Were using webpack to create a production build.
 
 - Webpack will provide your build output to a dist folder. This file is git ignored, adjust these settings to your needs.
 
-### To make this app your own:
+## To make this app your own:
 
 We highly recommend making these changes.
 
@@ -52,7 +52,7 @@ We highly recommend making these changes.
 
 - The /README.md is what your currently reading. Once you have read through this file, we highly recommend replacing all of its contents with your own. If you need to reference this file again you can find it at https://github.com/mbb10324/react-arca/react-arca-template#readme.
 
-### Feedback
+## Feedback
 
 - If you have any feedback and would like to see things added/removed/changed create a new issue @ https://github.com/mbb10324/react-arca/issues
 
