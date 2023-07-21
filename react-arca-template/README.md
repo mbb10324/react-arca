@@ -29,6 +29,7 @@ We're using Webpack to create a production build.
 
 We highly recommend making these changes:
 
+- To change the port navigate to /webpack.config.js and under devServer you can change the port that the app will run on.
 - Add your own favicon.ico. Replace the default favicon.ico within /public/favicon.ico.
 - Adjust the head area within /public/index.html to support your project needs.
 - Within /src/assets, we set up some basic media. Replace the media according to your liking.

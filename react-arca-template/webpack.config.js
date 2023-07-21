@@ -33,8 +33,8 @@ module.exports = {
 		}),
 		new MiniCssExtractPlugin(),
 		new BundleAnalyzerPlugin({
-			analyzerMode: "disabled", // this will disable the automatic open
-			generateStatsFile: true, // this will generate a stats.json file in your build directory
+			analyzerMode: "disabled",
+			generateStatsFile: true,
 		}),
 		new ESLintPlugin({
 			extensions: ["js", "jsx"],
@@ -44,7 +44,7 @@ module.exports = {
 		extensions: [".js", ".jsx"],
 	},
 	devServer: {
-		port: 3003,
+		port: 3030,
 		historyApiFallback: true,
 		devMiddleware: {
 			stats: {
