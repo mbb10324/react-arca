@@ -4,24 +4,20 @@ Welcome react-arca developer!
 
 ## Introduction
 
-react-arca is a powerful component library designed to simplify form management and validation in your web applications. It provides a set of reusable components and utilities that enable developers to quickly build dynamic and user-friendly forms. It was created using create-react-app with typescript.
+react-arca is a boiler plate generator for building a React application. It installs the necessitys to get started working with React, and allows the developer to immediately begin developing after install. Its minimal, concise, and flexible.
 
 ## Getting Started
 
 To run the application, follow these steps:
 
 1. Clone the repository onto your local machine.
-2. Navigate to the react-arca root directory using the terminal.
-3. Run `npm install` to install the necessary dependencies.
-4. Start the example application by running `npm start`.
-5. The application should start on localhost:3000 (or the next available port if 3000 is taken).
-6. Upon launching the application, you will be directed to the home/splash page. From there, you can navigate to the simple form example or the huge form example to explore the functionality of the forms.
+2. Navigate to the react-arca-cli and react-arca-template directories and run `npm i`.
+3. Start the template application by navigating to react-arca-template and run `npm start`.
+4. The application should start on localhost:3030.
 
-The files to build the example live within the `/example` folder.
+## The Template
 
-## The Library
-
-Within the /lib folder, you will find the necessary files to build our component library:
+The react-arca-template is a representation of the files that will be installed on the users machine.
 
 Table of contents:
 
