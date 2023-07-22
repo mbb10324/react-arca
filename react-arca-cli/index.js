@@ -28,6 +28,12 @@ const templatePath = path.join(__dirname, "../react-arca-template");
 try {
 	// Copy the template files to the new project directory
 	fs.copySync(templatePath, projectPath);
+	// Make the gitignore .gitignore
+	const gitignorePath = path.join(projectPath, "gitignore");
+	const dotGitignorePath = path.join(projectPath, ".gitignore");
+	if (fs.existsSync(gitignorePath)) {
+		fs.renameSync(gitignorePath, dotGitignorePath);
+	}
 	// Rename files with package name
 	injectProjectName(projectName);
 	// Let the user know were installing

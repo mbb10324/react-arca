@@ -1,6 +1,6 @@
 {
 	"name": "react-arca-cli",
-	"version": "0.0.13",
+	"version": "0.0.14",
 	"description": "CLI for creating a new react-arca project.",
 	"main": "index.js",
 	"dependencies": {
