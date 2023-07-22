@@ -30,6 +30,8 @@ try {
 	fs.copySync(templatePath, projectPath);
 	// Rename files with package name
 	injectProjectName(projectName);
+	// Let the user know were installing
+	console.log(chalk.greenBright("\n We're installing the necessary dependencies, this should only take a moment... \n"));
 	// Install dependencies in the new project directory
 	execSync("npm install", { cwd: projectPath, stdio: "inherit" });
 } catch (error) {
@@ -41,10 +43,10 @@ try {
 
 // Package was successfully installed
 console.log(
-	chalk.green("\n\nProject is ready!\n\n") +
-		chalk.cyan(
-			`You can start your app by running the following commands: \n ${chalk.cyanBright(
-				`cd ${projectName}`
+	chalk.greenBright("\n\nProject is ready!\n\n") +
+		chalk.whiteBright(
+			`You can start your app by running the following commands: ${chalk.cyanBright(
+				`\n\n cd ${projectName}`
 			)} \n ${chalk.cyanBright("npm start\n\n")}`
 		)
 );
