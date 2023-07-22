@@ -1,9 +1,13 @@
 {
 	"name": "react-arca",
-	"version": "0.0.11",
+	"version": "0.0.13",
 	"description": "A cleaner, simpler way to get started with React.",
 	"main": "index.js",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mbb10324/react-arca"
+	},
 	"bin": {
 		"react-arca": "./react-arca-cli/index.js"
 	},

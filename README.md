@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/mbb10324/react-arca/">
-        <img src="https://raw.githubusercontent.com/mbb10324/react-arca/master/react-arca-template/src/assets/images/react-arca.png" alt="react-arca" width="40%" />
+        <img src="https://raw.githubusercontent.com/mbb10324/react-arca/master/docs/assets/images/react-arca.png" alt="react-arca" width="40%" />
     </a>
     <br />
      <br />

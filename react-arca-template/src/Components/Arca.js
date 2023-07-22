@@ -3,7 +3,7 @@ export default function Arca() {
 		<>
 			<video
 				data-testid="arca-video"
-				src="https://raw.githubusercontent.com/mbb10324/react-arca/master/react-arca-template/src/assets/videos/react-arca.mp4"
+				src="https://raw.githubusercontent.com/mbb10324/react-arca/master/docs/assets/videos/react-arca.mp4"
 				autoPlay
 				loop
 				muted
