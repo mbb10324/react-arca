@@ -4,15 +4,15 @@
 }
 
 .app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
 	min-height: 100vh;
 	height: 100%;
-	width: 100%;
-	background-color: #141414;
-	color: #fff7ee;
 	font-family: Arial, sans-serif;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+	color: #fff7ee;
+	background-color: #141414;
 }
 
 .app video {
@@ -21,26 +21,19 @@
 }
 
 .app h1 {
+	font-size: 20px;
 	text-align: center;
-	font-size: 1.5rem;
 }
 
 .app h1 a {
 	color: #d4ef21;
 }
 
-/* @font-face {
-	font-family: "TitilliumWeb-Regular";
-	src: url(./assets/fonts/TitilliumWeb-Regular.ttf) format("truetype");
-} */
-
 @media screen and (max-width: 768px) {
 	.app video {
 		width: 90%;
-		height: auto;
 	}
 	.app h1 {
-		text-align: center;
-		font-size: 0.8rem;
+		font-size: 12px;
 	}
 }

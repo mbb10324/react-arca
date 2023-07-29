@@ -38,7 +38,7 @@ try {
 	execSync("git init", { cwd: projectPath });
 	execSync("git add .", { cwd: projectPath });
 	execSync('git commit -m "Initial react-arca commit"', { cwd: projectPath });
-	console.log(chalk.greenBright("\n git initialized, added, and committed."));
+	console.log(chalk.whiteBright("\n git initialized, added, and committed."));
 
 	// Rename files with package name
 	injectProjectName(projectName);
